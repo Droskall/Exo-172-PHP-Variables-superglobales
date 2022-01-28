@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if (isset($_GET['nom'], $_GET['prenom'])){
     $nom = strip_tags(trim($_GET['nom']));

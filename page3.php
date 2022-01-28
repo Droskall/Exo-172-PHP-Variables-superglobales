@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 foreach ($_COOKIE as $cookieName => $value) {
     if ($cookieName === "login" || $cookieName === "password") {
