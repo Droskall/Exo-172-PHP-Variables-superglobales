@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 if (isset($_GET['login'], $_GET['password'])) {
     $login = strip_tags(trim($_GET['login']));
